@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{13542db8-76f0-4b3d-b4f7-33ce417c4153}">
 		<property name="name">
 			<value>Land</value>
@@ -95,10 +95,10 @@
 	</object>
 	<object class="Timeline" id="{910bfd7c-034e-449a-85a3-492765d467ea}">
 		<relationship name="modules">
-			<destination>{cbc384b0-b02a-4b99-9a0b-f05520a71f36}</destination>
+			<destination>{d2aa87f4-c916-43cd-a8f4-0763576da68f}</destination>
 			<destination>{36fbf01c-34de-45ba-85dd-92a2164fad7a}</destination>
 			<destination>{71a2be43-dde3-4fc0-bb88-0b14b0412066}</destination>
-			<destination>{d2aa87f4-c916-43cd-a8f4-0763576da68f}</destination>
+			<destination>{cbc384b0-b02a-4b99-9a0b-f05520a71f36}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{db3d0316-d496-4a96-b7c4-1aba47df43fb}">
@@ -209,8 +209,8 @@
 			<value>13.5</value>
 		</property>
 		<relationship name="modulators">
-			<destination>{14452c9a-47cd-4fe5-9c3f-c72e22c84b24}</destination>
 			<destination>{321a96d5-d3eb-459e-99ac-63324ea27120}</destination>
+			<destination>{14452c9a-47cd-4fe5-9c3f-c72e22c84b24}</destination>
 		</relationship>
 		<relationship name="triggerConditions">
 			<destination>{0b67f2af-b863-4794-b474-5faf0f23d816}</destination>
@@ -328,20 +328,20 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{01ee7348-197f-444e-9218-a2b017740fec}" />
-	<object class="RandomizerModulator" id="{14452c9a-47cd-4fe5-9c3f-c72e22c84b24}">
-		<property name="nameOfPropertyBeingModulated">
-			<value>pitch</value>
-		</property>
-		<property name="amount">
-			<value>15</value>
-		</property>
-	</object>
 	<object class="RandomizerModulator" id="{321a96d5-d3eb-459e-99ac-63324ea27120}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>volume</value>
 		</property>
 		<property name="amount">
 			<value>6</value>
+		</property>
+	</object>
+	<object class="RandomizerModulator" id="{14452c9a-47cd-4fe5-9c3f-c72e22c84b24}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+		<property name="amount">
+			<value>15</value>
 		</property>
 	</object>
 	<object class="ParameterCondition" id="{0b67f2af-b863-4794-b474-5faf0f23d816}">
